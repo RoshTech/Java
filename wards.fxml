@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="sample.Controller">
+  <tabs>
+    <Tab text="Ward 1">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="37.5" layoutY="29.0" onMouseClicked="#onbedClicked" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="225.0" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="412.5" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Label layoutX="92.0" layoutY="5.0" text="Room 1" />
+                  <Label layoutX="467.0" layoutY="5.0" text="Room 3" />
+                  <Label layoutX="279.0" layoutY="5.0" text="Room 2" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="37.0" layoutY="221.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="225.0" layoutY="221.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="412.0" layoutY="221.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Label layoutX="92.0" layoutY="197.0" text="Room 4" />
+                  <Label layoutX="467.0" layoutY="197.0" text="Room 6" />
+                  <Label layoutX="279.0" layoutY="197.0" text="Room 5" />
+               </children>
+            </AnchorPane>
+         </content>
+    </Tab>
+    <Tab text="Ward 2">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="37.5" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="225.0" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="412.5" layoutY="29.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Label layoutX="92.0" layoutY="5.0" text="Room 1" />
+                  <Label layoutX="467.0" layoutY="5.0" text="Room 3" />
+                  <Label layoutX="279.0" layoutY="5.0" text="Room 2" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="37.0" layoutY="221.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="225.0" layoutY="221.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="412.0" layoutY="221.0" stroke="BLACK" strokeType="INSIDE" width="150.0" />
+                  <Label layoutX="92.0" layoutY="197.0" text="Room 4" />
+                  <Label layoutX="467.0" layoutY="197.0" text="Room 6" />
+                  <Label layoutX="279.0" layoutY="197.0" text="Room 5" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AgeCare.Manager">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" text="Nurse Details">
+                     <font>
+                        <Font size="44.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" text="Nurse ID" />
+                  <Region prefHeight="55.0" prefWidth="112.0" />
+                  <TextField fx:id="nurseID" />
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Nurse Name">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding></Label>
+                  <Region prefHeight="56.0" prefWidth="91.0" />
+                  <TextField fx:id="nurseName" />
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Nurse Username" />
+                  <Region prefHeight="56.0" prefWidth="69.0" />
+                  <TextField fx:id="nurseUsername" />
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Nurse Password" />
+                  <Region prefHeight="56.0" prefWidth="73.0">
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding></Region>
+                  <TextField fx:id="nursePassword" prefHeight="26.0" prefWidth="152.0" />
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Shift timing" />
+                  <Region prefHeight="56.0" prefWidth="98.0" />
+                  <TextField fx:id="startTimeNurse" prefHeight="26.0" prefWidth="69.0" promptText="Start Time" />
+                  <Region prefHeight="56.0" prefWidth="24.0" />
+                  <TextField fx:id="stopTimeNurse" prefHeight="26.0" prefWidth="69.0" promptText="Stop Time" />
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Region prefHeight="200.0" prefWidth="200.0" />
+                  <Button fx:id="addNurse" mnemonicParsing="false" onAction="#addNurse" text="Add Nurse" />
+               </children></HBox>
+         </children>
+      </VBox>
+   </children>
+</Pane>
